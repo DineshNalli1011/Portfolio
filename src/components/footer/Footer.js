@@ -1,6 +1,6 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import React from "react";
+import { FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
@@ -9,13 +9,36 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a
+              href="https://www.linkedin.com/in/nallidinesh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaLinkedinIn />
+            </a>
           </span>
+
           <span className="bannerIcon">
-            <FaTwitter />
+            <a
+              href="https://x.com/dinesh__nalli"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaTwitter />
+            </a>
           </span>
+          
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a
+              href="https://www.instagram.com/invites/contact/?igsh=85vp04d7n0cs&utm_content=m5d7r2s"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
+              <FaInstagram />
+            </a>
           </span>
         </div>
       </div>
@@ -23,7 +46,7 @@ const Footer = () => {
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Quick Link
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden text-gray-600">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               About
@@ -32,19 +55,7 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Portfolio
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Services
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Blog
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
@@ -60,16 +71,10 @@ const Footer = () => {
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden text-gray-600">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
@@ -79,25 +84,13 @@ const Footer = () => {
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
         </ul>
       </div>
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           DEVELOPERS
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
+        <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6 text-gray-600">
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Documentation
@@ -112,19 +105,7 @@ const Footer = () => {
           </li>
           <li>
             <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
               Support
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
-          </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
               <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
             </span>
           </li>
@@ -132,6 +113,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

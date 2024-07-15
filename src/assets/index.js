@@ -1,21 +1,17 @@
 import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
-import projectOne from "./images/projects/projectOne.jpg";
-import projectTwo from "./images/projects/projectTwo.jpg";
-import projectThree from "./images/projects/projectThree.jpeg";
-import testimonialOne from "./images/testmonial/testimonialOne.png";
-import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png";
+import bannerImg from "./images/bannerImg.jpg";
+import vegetable_basket from "./images/projects/vegetable_basket.jpeg";
+import coffeeimg from "./images/projects/coffeeimg.jpg";
+import Healthcare from "./images/projects/Healthcare.jpeg";
+import urlshortener from "./images/projects/urlshortener.webp";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
   logo,
   bannerImg,
-  projectOne,
-  projectTwo,
-  projectThree,
-  testimonialOne,
-  testimonialTwo,
-  quote,
   contactImg,
+  vegetable_basket,
+  coffeeimg,
+  Healthcare,
+  urlshortener,
 };
