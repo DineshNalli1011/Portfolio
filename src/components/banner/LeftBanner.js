@@ -88,7 +88,7 @@ const LeftBanner = () => {
           </h2>
           <div className="flex gap-4">
             <a
-              href="/your-link"
+              href="https://drive.google.com/file/d/1xkHtaP3M2EbJLR_Bmnt_m048zFWOf4Vf/view?usp=drive_link"
               className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold px-12 py-4 item-center rounded"
             >
               <FiDownload />
