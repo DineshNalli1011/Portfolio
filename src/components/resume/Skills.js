@@ -81,7 +81,7 @@ const skillsData = [
       },
       {
         name: "C",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+        icon: "https://img.icons8.com/?size=100&id=40670&format=png&color=000000",
       },
       {
         name: "C++",
