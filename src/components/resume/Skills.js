@@ -85,7 +85,7 @@ const skillsData = [
       },
       {
         name: "C++",
-        icon: "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
       },
     ],
   },
