@@ -60,7 +60,7 @@ const skillsData = [
       },
       {
         name: "Supabase",
-        icon: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+        icon: "https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg",
       },
       {
         name: "API",
