@@ -77,7 +77,7 @@ const skillsData = [
       },
       {
         name: "Azure",
-        icon: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        icon: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
       },
       {
         name: "C",
